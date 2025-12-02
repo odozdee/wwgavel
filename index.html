@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Words Worth Gavel Club</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" src="./index.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAQ6PY4OP0eyhcHbSAnRrkiWHy_QEDLXLc&callback=initMap"></script>
+</head>
+<body>
+    <div class="navcontainer">
+        <div class="logo">
+            <a href="index.html"><img src="logo.png" alt="logo"></a>
+        </div>
+        <div id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">Club</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+            <a href="#join">Join</a>
+        </div>
+        <div class="controls">
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="hero" id="home">
+        <img src="cover.jpg" alt="cover" style="width: 100%;">
+        <div class="hero-overlay">
+            <div class="hero-grid">
+                <div class="hero-left">
+                    <h1>Words Worth Gavel Club</h1>
+                    <p>
+                        Words Worth Gavel Club is affiliated with Toastmasters International, a nonprofit
+                        educational organization that allows members to practice and improve their public speaking
+                        and leadership skills. Since 1924, Toastmasters International has helped people from diverse
+                        backgrounds become more confident speakers, communicators, and leaders.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-red">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <div class="video-wrapper">
+                        <iframe 
+                            src="https://player.vimeo.com/video/1142619713?h=abcdef1234&title=0&byline=0&portrait=0" 
+                            frameborder="0" 
+                            allow="autoplay; fullscreen; picture-in-picture" 
+                            allowfullscreen
+                            title="Words Worth Gavel Club Introduction">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Our Club</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Words Worth Gavel Club provides a supportive and positive learning experience in which members are empowered to develop communication and leadership skills, resulting in greater self-confidence and personal growth.</p>
+                    <p>Through regular weekly meetings, members learn to practice public speaking, organize and lead meetings, and give constructive feedback. Our club welcomes youths from all backgrounds and experience levels.</p>
+                    <p>Whether you're looking to overcome the fear of public speaking, improve your presentation skills, or simply become a more effective communicator, Words Worth Gavel Club offers the perfect platform for your growth.</p>
+                    <a href="#join" class="btn-red">Join Our Club</a>
+                </div>
+                <div class="about-image">
+                    <img src="gavelclub3.jpg" alt="Public Speaking Event">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Gavel Club?</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Improve Public Speaking</h3>
+                    <p>Develop confidence and effectiveness in public speaking through regular practice and constructive feedback.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Build Leadership Skills</h3>
+                    <p>Take on leadership roles within the club to develop and practice essential leadership competencies.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Get Constructive Feedback</h3>
+                    <p>Receive supportive and constructive evaluations to help you continuously improve your communication skills.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Earn Awards</h3>
+                    <p>Earn recognition for your achievements and progress through the Toastmasters education program and our club awards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="section-title">
+            <h2>Gallery</h2>
+        </div>
+
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="gavelclub.jpg" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="gavelclub2.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="gavelclub4.jpg" alt="Slide 3">
+            </div>
+            <div class="slide">
+                <img src="gavelclub4.png" alt="Slide 4">
+            </div>
+            <div class="slide">
+                <img src="gavelclub5.jpg" alt="Slide 5">
+            </div>
+            <div class="slide">
+                <img src="gavelclub6.jpg" alt="Slide 6">
+            </div>
+            <div class="slide">
+                <img src="gavelclub7.png" alt="Slide 7">
+            </div>
+            <div class="slide">
+                <img src="gavelclub8.png" alt="Slide 8">
+            </div>
+            <div class="slide">
+                <img src="gavelclub9.jpg" alt="Slide 9">
+            </div>
+            <div class="slide">
+                <img src="gavelclub10.jpg" alt="Slide 10">   
+            </div>
+
+            <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+            <span class="next" onclick="changeSlide(1)">&#10095;</span>
+        </div>
+
+        <div class="dots">
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+            <span class="dot" onclick="goToSlide(4)"></span>
+            <span class="dot" onclick="goToSlide(5)"></span>
+            <span class="dot" onclick="goToSlide(6)"></span>
+            <span class="dot" onclick="goToSlide(7)"></span>
+            <span class="dot" onclick="goToSlide(8)"></span>
+            <span class="dot" onclick="goToSlide(9)"></span>
+            <span class="dot" onclick="goToSlide(10)"></span>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+            </div>
+            
+            <!-- Map on top - full width -->
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            
+            <!-- Contact info below - similar to features grid -->
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Our Address</h3>
+                    <p>16060 108th Ave<br>Surrey, BC, V4N 1M1</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Meeting Times</h3>
+                    <p>Every Thursday<br>7:00 PM - 9:00 PM</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Contact Us</h3>
+                    <p>wordsworthgavel@gmail.com</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                    <h3>Social Links</h3>
+                    <a href="https://discord.gg/B7gzEJnW"><p>Discord</p></a>
+                    <a href="https://www.instagram.com/wordsworthgavel/?hl=en"><p>Instagram</p></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="join-section" id="join">
+        <div class="container">
+            <div class="section-title">
+                <h2>Join Our Next Meeting</h2>
+            </div>
+
+            <div class="section-content">
+                <p>We have weekly meetings from 7-9 pm on Thursdays at Fraser Heights Secondary School Room 207. For more information and further annoucements, join our Discord server, follow our Instagram, or email us</p>
+                <p>If you are interested in becoming a member, you can fill out the membership form below</p>
+            </div>
+            
+            <div class="download-center">
+                <a href="Gavel Club Membership Forms 25-26.pdf" download="Gavel Club Membership Forms 25-26.pdf" class="btn-download-large">
+                    <i class="fas fa-download"></i> Download Membership Form
+                </a>
+            </div>
+        </div>
+    </section>
+    <script>
+        (function(){
+            const btn = document.getElementById('menu-toggle');
+            const nav = document.getElementById('navbar');
+
+            function toggleMenu() {
+                const isOpen = nav.classList.toggle('open');
+                btn.classList.toggle('open', isOpen);
+                btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+            }
+
+            btn.addEventListener('click', toggleMenu);
+
+            // close menu when clicking a link (mobile)
+            document.querySelectorAll('#navbar a').forEach(a => {
+                a.addEventListener('click', () => {
+                    if (window.innerWidth <= 768) {
+                        nav.classList.remove('open');
+                        btn.classList.remove('open');
+                        btn.setAttribute('aria-expanded', 'false');
+                    }
+                });
+            });
+
+            // close menu if resizing to desktop
+            window.addEventListener('resize', () => {
+                if (window.innerWidth > 768 && nav.classList.contains('open')) {
+                    nav.classList.remove('open');
+                    btn.classList.remove('open');
+                    btn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        })();
+
+        let slideIndex = 1;
+        showSlide(slideIndex);
+
+        function changeSlide(n) {
+            showSlide(slideIndex += n);
+        }
+
+        function goToSlide(n) {
+            showSlide(slideIndex = n);
+        }
+
+        function showSlide(n) {
+            const slides = document.getElementsByClassName("slide");
+            const dots = document.getElementsByClassName("dot");
+
+            if (n > slides.length) slideIndex = 1;
+            if (n < 1) slideIndex = slides.length;
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        setInterval(() => {
+            changeSlide(1);
+        }, 5000);
+
+        const sections = document.querySelectorAll("section, .hero");
+        const navLinks = document.querySelectorAll("#navbar a");
+
+        window.addEventListener("scroll", () => {
+            let current = "";
+
+            sections.forEach(sec => {
+                const top = sec.offsetTop - 150; 
+                const bottom = top + sec.offsetHeight;
+
+                if (pageYOffset >= top && pageYOffset < bottom) {
+                    current = sec.getAttribute("id");
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove("active");
+
+                if (current && link.getAttribute("href") === "#" + current) {
+                    link.classList.add("active");
+                }
+            });
+        });
+
+        // Initialize and add the map
+        function initMap() {
+            const location = { lat: 49.19796, lng: -122.77669 };
+            
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 15,
+                center: location,
+                mapId: "DEMO_MAP_ID",
+                fullscreenControl: true,
+                zoomControl: true,
+                mapTypeControl: false,
+                streetViewControl: true,
+                styles: [
+                    // Keep your existing map styles here
+                ]
+            });
+            
+            new google.maps.Marker({
+                position: location,
+                map: map,
+                title: "Words Worth Gavel Club",
+                animation: google.maps.Animation.DROP
+            });
+        }
+
+        window.initMap = initMap;
+    </script>
+</body>
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Words Worth Gavel Club</h3>
+            <p>Affiliated with Toastmasters International helping youth practice and improve their public speaking and leadership skills</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/wordsworthgavel/?hl=en" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://discord.gg/B7gzEJnW" aria-label="Discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="mailto:wordsworthgavel@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#join">Join</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Meeting Info</h3>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Fraser Heights Secondary</li>
+                <li><i class="fas fa-clock"></i> Thursdays 7-9 PM</li>
+                <li><i class="fas fa-door-open"></i> Room 207</li>
+                <li><i class="fas fa-users"></i> Open to all people</li>
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <ul>
+                <li><i class="fas fa-envelope"></i> wordsworthgavel@gmail.com</li>
+                <li><i class="fas fa-school"></i> Fraser Heights Secondary</li>
+                <li><i class="fas fa-map-pin"></i> 16060 108th Ave, Surrey, BC</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <div class="footer-bottom-content">
+            <p>Copyright &copy; 2025 Words Worth Gavel Club. All rights reserved.</p>
+            <div class="footer-legal">
+                <p>Website design by Maxwell Qin</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>
