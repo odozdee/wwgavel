@@ -85,7 +85,6 @@
         </div>
     </section>
 
-    <!-- Features Section -->
     <section class="features" id="about">
         <div class="container">
             <div class="section-title">
@@ -189,12 +188,10 @@
                 <h2>Contact Us</h2>
             </div>
             
-            <!-- Map on top - full width -->
             <div class="map-container">
                 <div id="map"></div>
             </div>
             
-            <!-- Contact info below - similar to features grid -->
             <div class="contact-grid">
                 <div class="contact-card">
                     <div class="contact-icon">
@@ -263,7 +260,6 @@
 
             btn.addEventListener('click', toggleMenu);
 
-            // close menu when clicking a link (mobile)
             document.querySelectorAll('#navbar a').forEach(a => {
                 a.addEventListener('click', () => {
                     if (window.innerWidth <= 768) {
@@ -274,7 +270,6 @@
                 });
             });
 
-            // close menu if resizing to desktop
             window.addEventListener('resize', () => {
                 if (window.innerWidth > 768 && nav.classList.contains('open')) {
                     nav.classList.remove('open');
@@ -342,7 +337,6 @@
             });
         });
 
-        // Initialize and add the map
         function initMap() {
             const location = { lat: 49.19796, lng: -122.77669 };
             
@@ -354,9 +348,6 @@
                 zoomControl: true,
                 mapTypeControl: false,
                 streetViewControl: true,
-                styles: [
-                    // Keep your existing map styles here
-                ]
             });
             
             new google.maps.Marker({
@@ -428,5 +419,5 @@
         </div>
     </div>
 </footer>
-
 </html>
+
